@@ -20,3 +20,15 @@ python3 annotator.py
 python3 annotator.py --target "hdmi-1"
 ```
 
+## key / mouse
+
+Left click anywhere to start the current tool, let go when done.
+
+- F5: save image to "$HOME/Downloads/" and exit
+- F7: toggle visibility of the UI
+- F8: undo last action
+- F9: cycle active color
+- F10: cycle active tool
+- F11/F12: decrease/increase line width
+- Mousewheel: Change line width (or color when hovering over the palette)
+
