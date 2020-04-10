@@ -24,6 +24,7 @@ python3 annotator.py --target "hdmi-1"
 
 Left click anywhere to start the current tool, let go when done.
 
+- ESC / q: exit
 - F5: save image to "$HOME/Downloads/" and exit
 - F7: toggle visibility of the UI
 - F8: undo last action
