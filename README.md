@@ -8,7 +8,7 @@ Note: This project is not actively maintained, designed for pretty specific need
 
 1. Clone the repository, create a virtual environment for it.
 2. Install dependencies with `pip -r requirements.txt`
-3. Make sure the command line utility `xrandr` is available for multi display setups.
+3. Make sure the command line utility `xrandr` and `scrot` are available for multi display setups.
 
 ## start
 

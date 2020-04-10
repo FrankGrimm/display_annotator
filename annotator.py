@@ -1,6 +1,6 @@
 import pygame
 import time
-import pyscreenshot as ImageGrab
+import pyscreenshot
 import sys
 import subprocess
 import os
@@ -51,7 +51,7 @@ font = pygame.font.SysFont(None, 24)
 active_text = font.render('active (ui: F7, undo: F8, color: F9, next tool: F10, tool size: F11(-)/F12(+))', True, colors['white'])
 active_text_shadow = font.render('active (ui: F7, color: F8, undo: F9, next tool: F10, tool size: F11(-)/F12(+))', True, colors['black'])
 
-im = ImageGrab.grab()
+im = pyscreenshot.grab(backend="scrot")
 imbuffer = im.tobytes("raw", 'RGB')
 
 def display_info():
