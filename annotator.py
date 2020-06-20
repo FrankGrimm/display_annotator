@@ -48,7 +48,7 @@ pygame.init()
 
 font = pygame.font.SysFont(None, 24)
 
-active_text = font.render('active (ui: F7, undo: F8, color: F9, next tool: F10, tool size: F11(-)/F12(+))', True, colors['white'])
+active_text = font.render('active (save and quit: F5, ui: F7, undo: F8, color: F9, next tool: F10, tool size: F11(-)/F12(+))', True, colors['white'])
 active_text_shadow = font.render('active (ui: F7, color: F8, undo: F9, next tool: F10, tool size: F11(-)/F12(+))', True, colors['black'])
 
 im = pyscreenshot.grab(backend="scrot")
